@@ -1,0 +1,307 @@
+{
+  "cursos": [
+    {
+      "nome": "Desenvolvimento Web Full Stack Js",
+      "descricao": "Curso abrangente para se tornar um desenvolvedor web full stack.",
+      "imagem": "https://miro.medium.com/v2/resize:fit:342/1*rpYyNZvqfFej0FgWEW5p9Q.png",
+      "modulos": 8,
+      "aulas": [
+        {
+          "titulo": "Desenvolvimento de Aplicações com Node.js",
+          "link": "https://youtu.be/05WeJCU8CJ4?si=7MFCP0On2Y43JHrM",
+          "pontuacao": 10,
+          "duracao": { "minutos": 10, "segundos": 44 },
+          "quiz": {
+            "pergunta1": "Qual é a linguagem de programação principal para desenvolvimento de aplicações com Node.js?",
+            "respostas1": ["1-Java", "2-JavaScript", "3-Python", "4-C++"],
+            "respostaCorreta1": "2",
+            "pergunta2": "O que é o npm no contexto do Node.js?",
+            "respostas2": [
+              "1-Node Package Manager",
+              "2-New Project Manager",
+              "3-Node Programming Module",
+              "4-Network Package Manager"
+            ],
+            "respostaCorreta2": "1"
+          }
+        },
+        {
+          "titulo": "API REST com Express",
+          "link": "https://youtu.be/V3PUGubaSQo?si=VPxFkILELwgbKZ-v",
+          "pontuacao": 23,
+          "duracao": { "minutos": 23, "segundos": 5 },
+          "quiz": {
+            "pergunta1": "O que significa REST no contexto de API?",
+            "respostas1": [
+              "1-Representational State Transfer",
+              "2-Remote Execution and State Transfer",
+              "3-RESTful Endpoint Service",
+              "4-Real-time Server Transfer"
+            ],
+            "respostaCorreta1": "1",
+            "pergunta2": "Qual é o papel do framework Express no desenvolvimento de APIs REST?",
+            "respostas2": [
+              "1-Banco de Dados",
+              "2-Controle de Versão",
+              "3-Middleware para Roteamento",
+              "4-Sistema de Autenticação"
+            ],
+            "respostaCorreta2": "3"
+          }
+        },
+        {
+          "titulo": "Rotas GET com Express e Refatoração",
+          "link": "https://youtu.be/4GdHVfqWxOw?si=tTCdP0ue9lJpLBoL",
+          "pontuacao": 22,
+          "duracao": { "minutos": 22, "segundos": 30 },
+          "quiz": {
+            "pergunta1": "O que são rotas no contexto do Express?",
+            "respostas1": [
+              "1-Caminhos físicos",
+              "2-Funções assíncronas",
+              "3-Endereços de IP",
+              "4-Caminhos de URL"
+            ],
+            "respostaCorreta1": "4",
+            "pergunta2": "Por que a refatoração é importante no desenvolvimento de software?",
+            "respostas2": [
+              "1-Melhorar a Eficiência",
+              "2-Aumentar a Complexidade",
+              "3-Diminuir a Legibilidade",
+              "4-Atrasar o Desenvolvimento"
+            ],
+            "respostaCorreta2": "1"
+          }
+        },
+        {
+          "titulo": "Rotas POST com Express e Insomnia",
+          "link": "https://youtu.be/67GVpULYJ3k?si=wzYGM6bQzaW6JFHY",
+          "pontuacao": 16,
+          "duracao": { "minutos": 16, "segundos": 12 },
+          "quiz": {
+            "pergunta1": "Qual é a finalidade da requisição HTTP POST?",
+            "respostas1": [
+              "1-Obter dados",
+              "2-Atualizar dados",
+              "3-Enviar dados",
+              "4-Excluir dados"
+            ],
+            "respostaCorreta1": "3",
+            "pergunta2": "O que é o Insomnia no contexto do desenvolvimento de APIs?",
+            "respostas2": [
+              "1-Ferramenta de Análise Estática",
+              "2-Ambiente de Desenvolvimento Integrado",
+              "3-Ferramenta de Teste de API",
+              "4-Sistema de Controle de Versão"
+            ],
+            "respostaCorreta2": "3"
+          }
+        },
+        {
+          "titulo": "Rotas GET com Parâmetro e Rota DELETE",
+          "link": "https://youtu.be/IsomhYdkg_0?si=thVEfc3D84UdmvaT",
+          "pontuacao": 20,
+          "duracao": { "minutos": 20, "segundos": 18 },
+          "quiz": {
+            "pergunta1": "Como os parâmetros são passados em uma requisição GET?",
+            "respostas1": [
+              "1-No corpo da requisição",
+              "2-Como parte da URL",
+              "3-Como cabeçalho da requisição",
+              "4-Na resposta do servidor"
+            ],
+            "respostaCorreta1": "2",
+            "pergunta2": "O que uma rota DELETE realiza em uma API?",
+            "respostas2": [
+              "1-Criar recursos",
+              "2-Atualizar recursos",
+              "3-Excluir recursos",
+              "4-Obter recursos"
+            ],
+            "respostaCorreta2": "3"
+          }
+        },
+        {
+          "titulo": "Rota PUT com Parâmetro para Atualizar Dados",
+          "link": "https://youtu.be/mp2aP5KoXcY?si=wS1FvSJyNJCmSnqw",
+          "pontuacao": 10,
+          "duracao": { "minutos": 10, "segundos": 6 },
+          "quiz": {
+            "pergunta1": "Qual é a diferença principal entre as requisições PUT e POST?",
+            "respostas1": [
+              "1-PUT é utilizado apenas para leitura",
+              "2-POST é utilizado apenas para atualização",
+              "3-PUT é utilizado para atualização",
+              "4-POST é utilizado para criação"
+            ],
+            "respostaCorreta1": "3",
+            "pergunta2": "Por que é importante utilizar parâmetros ao atualizar dados em uma API?",
+            "respostas2": [
+              "1-Para tornar a requisição mais lenta",
+              "2-Para aumentar a complexidade",
+              "3-Para garantir a segurança",
+              "4-Para especificar qual recurso deve ser atualizado"
+            ],
+            "respostaCorreta2": "4"
+          }
+        }
+      ],
+      "quantidade_aulas": 6,
+      "duracao_total": { "minutos": 103, "segundos": 55 }
+    },
+    {
+      "nome": "Aplicações de Python, Instalação e Lógica de Programação",
+      "descricao": "Curso introdutório de Python com foco em lógica de programação.",
+      "imagem": "https://pyscript.net/assets/images/avatar.jpg",
+      "modulos": 6,
+      "aulas": [
+        {
+          "titulo": "Instalação e Lógica de Programação",
+          "link": "https://youtu.be/BW9Va5syNC0?si=8mOOfYKCFAtrTa2c",
+          "pontuacao": 21,
+          "duracao": { "minutos": 21, "segundos": 21 },
+          "quiz": {
+            "pergunta1": "Qual é o primeiro passo ao instalar um ambiente de programação?",
+            "respostas1": [
+              "1-Configurar o hardware",
+              "2-Baixar e instalar um editor de código",
+              "3-Definir os requisitos do sistema",
+              "4-Desenvolver algoritmos"
+            ],
+            "respostaCorreta1": "2",
+            "pergunta2": "O que é lógica de programação?",
+            "respostas2": [
+              "1-Um tipo de linguagem de programação",
+              "2-O estudo das operações de entrada e saída",
+              "3-Um conjunto de regras para desenvolver algoritmos",
+              "4-Uma técnica avançada de depuração de código"
+            ],
+            "respostaCorreta2": "3"
+          }
+        },
+        {
+          "titulo": "Importar bibliotecas e Exibir Informações",
+          "link": "https://youtu.be/AqSdAveazjw?si=Rdmd2chwAQ95bQoh",
+          "pontuacao": 15,
+          "duracao": { "minutos": 15, "segundos": 41 },
+          "quiz": {
+            "pergunta1": "Por que importamos bibliotecas em Python?",
+            "respostas1": [
+              "1-Para aumentar a complexidade do código",
+              "2-Para adicionar recursos específicos",
+              "3-Para tornar o código mais lento",
+              "4-Para reduzir a legibilidade do código"
+            ],
+            "respostaCorreta1": "2",
+            "pergunta2": "Como você exibe informações na tela em Python?",
+            "respostas2": [
+              "1-Com a função print()",
+              "2-Com a função input()",
+              "3-Com a função read()",
+              "4-Com a função show()"
+            ],
+            "respostaCorreta2": "1"
+          }
+        },
+        {
+          "titulo": "Estruturas de Repetição e o Format",
+          "link": "https://youtu.be/ft8OJam4VOw?si=4EpaLNq5fVRiTyWl",
+          "pontuacao": 19,
+          "duracao": { "minutos": 19, "segundos": 52 },
+          "quiz": {
+            "pergunta1": "Qual é o propósito das estruturas de repetição em programação?",
+            "respostas1": [
+              "1-Executar uma ação apenas uma vez",
+              "2-Facilitar a leitura do código",
+              "3-Permitir a execução repetida de um bloco de código",
+              "4-Controlar a instalação de bibliotecas"
+            ],
+            "respostaCorreta1": "3",
+            "pergunta2": "O que a função format() faz em Python?",
+            "respostas2": [
+              "1-Formata texto para ser impresso",
+              "2-Calcula operações matemáticas",
+              "3-Importa bibliotecas externas",
+              "4-Cria estruturas de repetição"
+            ],
+            "respostaCorreta2": "1"
+          }
+        },
+        {
+          "titulo": "Estruturas de Condição e Textos em Python",
+          "link": "https://youtu.be/IgM1e_GO3bo?si=oHdFlyyYGwJJFajj",
+          "pontuacao": 12,
+          "duracao": { "minutos": 12, "segundos": 51 },
+          "quiz": {
+            "pergunta1": "Para que servem as estruturas de condição em programação?",
+            "respostas1": [
+              "1-Importar bibliotecas",
+              "2-Controlar o fluxo do programa com base em condições",
+              "3-Exibir informações na tela",
+              "4-Executar repetições de código"
+            ],
+            "respostaCorreta1": "2",
+            "pergunta2": "Como você manipula textos em Python?",
+            "respostas2": [
+              "1-Com a função print()",
+              "2-Com a função input()",
+              "3-Com a função str()",
+              "4-Com a função read()"
+            ],
+            "respostaCorreta2": "3"
+          }
+        },
+        {
+          "titulo": "Tabelas e Bases de Dados em Python",
+          "link": "https://youtu.be/V7-ARKdE1QE?si=rKG0kvXR25nZrbEm",
+          "pontuacao": 17,
+          "duracao": { "minutos": 17, "segundos": 18 },
+          "quiz": {
+            "pergunta1": "O que são bases de dados em programação?",
+            "respostas1": [
+              "1-Estruturas de repetição",
+              "2-Coleções de dados organizados",
+              "3-Bibliotecas externas",
+              "4-Comandos de impressão"
+            ],
+            "respostaCorreta1": "2",
+            "pergunta2": "Qual é a função das tabelas em bancos de dados?",
+            "respostas2": [
+              "1-Exibir informações na tela",
+              "2-Organizar dados de forma estruturada",
+              "3-Calcula operações matemáticas",
+              "4-Controlar o fluxo do programa"
+            ],
+            "respostaCorreta2": "2"
+          }
+        },
+        {
+          "titulo": "Indicadores e Gráficos em Python",
+          "link": "https://youtu.be/xLbKg2ggqNQ?si=HBrJ3KsvumKVj8Fc",
+          "pontuacao": 29,
+          "duracao": { "minutos": 29, "segundos": 1 },
+          "quiz": {
+            "pergunta1": "O que são indicadores em programação?",
+            "respostas1": [
+              "1-Funções matemáticas",
+              "2-Valores que indicam o estado ou desempenho de algo",
+              "3-Coleções de dados organizados",
+              "4-Blocos de código repetitivos"
+            ],
+            "respostaCorreta1": "2",
+            "pergunta2": "Como você cria gráficos em Python?",
+            "respostas2": [
+              "1-Com a função print()",
+              "2-Com a função input()",
+              "3-Com a função draw()",
+              "4-Com a função plot()"
+            ],
+            "respostaCorreta2": "4"
+          }
+        }
+      ],
+      "quantidade_aulas": 6,
+      "duracao_total": { "minutos": 115, "segundos": 4 }
+    }
+  ]
+}
